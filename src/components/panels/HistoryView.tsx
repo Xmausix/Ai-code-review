@@ -2,7 +2,7 @@
 "use client";
 import type { FC } from 'react';
 import type { Revision } from "@/types";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/components/ui/Button";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { History, Trash2, RotateCcw, Info } from 'lucide-react';

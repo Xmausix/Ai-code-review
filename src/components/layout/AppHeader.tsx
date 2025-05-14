@@ -1,7 +1,7 @@
 
 "use client";
 import type { FC } from 'react';
-import { Button } from "@/components/ui/button";
+import { Button } from "@/components/ui/Button";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import type { SupportedLanguage } from "@/types";
 import { Code, Lightbulb, Play, Loader2, Sun, Moon } from "lucide-react";

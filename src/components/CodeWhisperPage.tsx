@@ -4,8 +4,8 @@
 import { useState, useEffect, useCallback } from "react";
 import type { ExplainCodeOutput } from "@/ai/flows/explain-code";
 import { explainCode } from "@/ai/flows/explain-code";
-import type { ReviewCodeOutput } from "@/ai/flows/review-code";
-import { reviewCode } from "@/ai/flows/review-code";
+import type { ReviewCodeOutput } from "@/ai/flows/rewiev-code";
+import { reviewCode } from "@/ai/flows/rewiev-code";
 import AppHeader from "@/components/layout/AppHeader";
 import MonacoEditor from "@/components/editor/MonacoEditor";
 import ResultsPanel from "@/components/panels/ResultsPanel";
